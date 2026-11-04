@@ -1,0 +1,5 @@
+# Versions verified with Python 3.12. Install into your own virtual environment.
+pdfplumber==0.11.9
+pypdfium2==5.14.0
+Pillow==12.3.0
+pypdf==6.10.0

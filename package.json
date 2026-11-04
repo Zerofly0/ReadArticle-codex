@@ -1,0 +1,17 @@
+{
+  "name": "read-paper-reader",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "READ: a local bilingual paper reader powered by your signed-in Codex.",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node scripts/test.mjs",
+    "test:python": "node scripts/test-python.mjs",
+    "check": "node scripts/check.mjs",
+    "release:check": "node scripts/release.mjs --check",
+    "release:pack": "node scripts/release.mjs --pack"
+  },
+  "engines": { "node": ">=20.6.0" }
+}
